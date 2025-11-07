@@ -1,0 +1,7 @@
+# Archivos a ignorar 
+Binaries/ 
+DerivedDataCache/ 
+Intermediate/ 
+Saved/ 
+.vs/ 
+.vscode/ 
