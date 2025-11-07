@@ -1,7 +1,48 @@
-# Archivos a ignorar 
-Binaries/ 
-DerivedDataCache/ 
-Intermediate/ 
-Saved/ 
-.vs/ 
-.vscode/ 
+# ===============================
+# PoolMaster3D - Unreal + Blender
+# ===============================
+ECHO est  activado.
+# Unreal Engine folders to ignore
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+Build/
+Script/
+SourceArt/
+.idea/
+.DS_Store
+Thumbs.db
+ECHO est  activado.
+# Unreal temporary files
+*.VC.db
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.tmp
+*.log
+*.bak
+ECHO est  activado.
+# Blender temporary files
+*.blend1
+*.blend2
+*.blend@
+__pycache__/
+*.pyc
+ECHO est  activado.
+# Backup and cache
+*.autosave
+*.backup
+*.cache
+*.tmp
+ECHO est  activado.
+# OS-specific files
+.DS_Store
+Thumbs.db
+ECHO est  activado.
+# ===============================
+# End of .gitignore
+# ===============================
